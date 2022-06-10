@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option go_package = "./mvp";
+
+import "protos/Message.proto";
+import "protos/Player.proto";
+
+service Mvp {
+    rpc GetMvpMessage(protos.Player) returns (protos.Message) {}
+}

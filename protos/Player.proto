@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package protos;
+option go_package = "overengineered-groupmebot/protos";
+
+message Player {
+  string name = 1;
+}
