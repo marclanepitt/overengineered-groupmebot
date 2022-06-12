@@ -1,4 +1,0 @@
-build:
-  docker:
-    bot: bot/Dockerfile
-    mvp-service: services/mvp/Dockerfile
