@@ -1,4 +1,4 @@
 build:
   docker:
-    bot: mpittinsky/bot-image:1.0.0
-    mvp-service: mpittinsky/mvp-service-image:1.0.0
+    bot: bot/Dockerfile
+    mvp-service: services/mvp/Dockerfile

@@ -1,0 +1,9 @@
+services:
+  bot:
+    ports:
+      - "8081:8081"
+    image: mpittinsky/bot-image:1.0.0
+  mvp:
+    ports:
+      - "50051:50051"
+    image: mpittinsky/mvp-service-image:1.0.0
